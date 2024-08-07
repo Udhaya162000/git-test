@@ -1,0 +1,227 @@
+Design a contact us form with all fields as required.------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #message{
+            width: 800px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Contact Us</h3>
+    <div>
+    <label>Name:</label> <br>
+    <input type="text" name="name" id="name">
+    </div><br>
+    <div>
+        <label>E-mail:</label> <br>
+        <input type="e-mail" E-mail="email" id="email"/>
+    </div><br>
+    <div>
+        <label>Subject:</label><br>
+        <input type="text" Subject="subject" id="subject"/>
+    </div><br>
+    <div>
+        <label>Message:</label><br>
+        <input type="text" Message="message" id="message"/>
+    </div><br>
+    <button type="submit">Submit</button>
+    <button type="button">Reset</button>
+</body>
+</html>
+
+
+
+Use certain HTML elements to display the following in a HTML page.---------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Programming Language</h3>
+    <ul>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Vue.js</li>
+    </ul>
+    <ul>
+    <h4>Python</h4>
+        <li>a.Django Framework</li>
+        <li>b.Flask Flamework</li>
+     </ul>
+</body>
+</html>
+
+
+Create an element that helps you to open the https://google.com in separate new tab.----->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <a href='https://google.com/' target="_blank">Google</a>
+</body>
+</html>
+
+
+
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business)----->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #message{
+            width: 800px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Contact Us</h3>
+    <div>
+    <label>Name:</label> <br>
+    <input type="text" name="name" id="name">
+    </div><br>
+    <div>
+        <label>E-mail:</label> <br>
+        <input type="e-mail" E-mail="email" id="email"/>
+    </div><br>
+    <div>
+        <label>Subject:</label><br>
+        <input type="text" Subject="subject" id="subject"/>
+    </div><br>
+    <div>
+        <label>Message:</label><br>
+        <input type="text" Message="message" id="message"/>
+    </div><br>
+
+    <label>Employee Type</label>
+    <input type="radio" name:Salaried id="Salaried " value="Salaried"/>Salaried
+    <input type="radio" name:own business id="own_business " value="own business"/>own business<br><br>
+
+    <button type="submit">Submit</button>
+    <button type="button">Reset</button>
+</body>
+</html>
+
+
+Create an HTML page, which should contain all types of input elements.---->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Udhay</p>
+    <input type="submit">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week"> 
+    </body>
+    </html>
+
+
+Alligning the table into center--------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: black solid 2px;
+            border-collapse: collapse;
+        }
+        table {
+            margin: 0 auto; /* Center the table horizontally */
+        }
+       
+    </style>
+</head>
+
+<body>
+    <h3 style="text-align: center;">Health Chart</h3>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td rowspan="2">State of health</td>
+                    <td colspan="2">Fasting Value</td>
+                    <td>After Eating</td>
+                </tr>
+                <tr>
+                    <td>Minimum</td>
+                    <td>Maximum</td>
+                    <td>2 Hours of eating</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Pre Diabetes</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+                <tr>
+                    <td>Diabetes</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+                <tr>
+                    <td>Diabetes</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
